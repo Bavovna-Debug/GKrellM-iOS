@@ -1,0 +1,14 @@
+/******************************************************************************/
+/*                                                                            */
+/*  Server edit form                                                          */
+/*                                                                            */
+/******************************************************************************/
+
+"VyC-vF-MSn.text"   = "Rechnername:";
+"fZ5-Cv-Lrk.text"   = "Sie können dem Rechner einen assoziativen Namen geben, wie «Hauptserver», «Datenbank-Server», «Office-Server», «Michael's Laptop» ...";
+
+"37W-RG-aX0.text"   = "DNS-Name:";
+"ju5-Ne-3uS.text"   = "DNS-Name ist entweder ein Hostname oder IP-Adresse (IPv4 und IPv6 werden unterstützt).";
+
+"peN-K9-kG6.text"   = "Port-Nummer:";
+"ZQ3-Qh-Xsd.text"   = "GKrellM Port-Nummer auf dem Rechner (Standard: 19150).";

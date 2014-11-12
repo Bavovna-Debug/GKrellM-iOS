@@ -1,0 +1,23 @@
+<?gkrellm version="1.0"?>
+<servers>
+    <group name="Office">
+        <server server_id="1" server_name="Dr. Zoidberg" dns_name="zoidberg.meine-werke.com" port_number="19150" />
+        <server server_id="2" server_name="Quasar" dns_name="quasar.szcloud.de" port_number="19150" />
+        <server server_id="3" server_name="DB2" dns_name="db2.szcloud.de" port_number="19150" />
+        <server server_id="4" server_name="Vijsboek" dns_name="facebuch.zeppelinium.de" port_number="19150" />
+        <server server_id="5" server_name="Office #1" dns_name="srv1.meine-wolke.net" port_number="19150" />
+        <server server_id="6" server_name="Office #2" dns_name="srv2.meine-wolke.net" port_number="19150" />
+    </group>
+    <group name="Home">
+        <server server_id="10" server_name="Stratus" dns_name="stratus.capillatus.net" port_number="19150" />
+        <server server_id="7" server_name="Incursus" dns_name="cloud.meine-werke.com" port_number="12000" />
+        <server server_id="8" server_name="Mac mini" dns_name="192.168.1.42" port_number="19150" />
+        <server server_id="9" server_name="RS/6000" dns_name="power.maxim-dyndns.net" port_number="19150" />
+    </group>
+    <group name="Testlab">
+        <server server_id="10" server_name="My MacBook" dns_name="mac.capillatus.net" port_number="19150" />
+        <server server_id="7" server_name="Blade 2405" dns_name="10.0.4.5" port_number="21000" />
+        <server server_id="8" server_name="Blade 2412" dns_name="10.0.4.12" port_number="21000" />
+        <server server_id="9" server_name="RS/6000" dns_name="power.maxim-dyndns.net" port_number="19150" />
+    </group>
+</servers>

@@ -1,0 +1,75 @@
+/******************************************************************************/
+/*                                                                            */
+/*  Navigation bar                                                            */
+/*                                                                            */
+/******************************************************************************/
+
+"Spe-nh-xSE.title"          = "Rechner";
+
+/******************************************************************************/
+/*                                                                            */
+/*  Tab bar                                                                   */
+/*                                                                            */
+/******************************************************************************/
+
+"h2p-CP-L8G.title"          = "Processoren";
+"yaT-IA-bOb.title"          = "Dateisysteme";
+"hWS-8m-VRV.title"          = "Netzwerk";
+"b9i-Jv-Uc6.title"          = "Verbindungen";
+
+/******************************************************************************/
+/*                                                                            */
+/*  Monitor - Processors                                                      */
+/*                                                                            */
+/******************************************************************************/
+
+"gFS-gU-Pfs.headerTitle"    = "Prozessoren";
+"6gc-GY-o6X.text"           = "User:";
+"3lL-NC-Gb4.text"           = "System:";
+"bO7-Dt-6XK.text"           = "Nice:";
+"em6-5b-vq1.text"           = "Idle:";
+
+"TTl-Tu-aNQ.headerTitle"    = "Hauptspeicher";
+"ObR-uN-bPe.text"           = "Puffer:";
+"UI2-3f-6Kk.text"           = "Im Cache:";
+"CIH-TQ-exN.text"           = "Benutzt:";
+"4eM-Z5-b76.text"           = "Frei:";
+
+"kNl-LA-7Nz.headerTitle"    = "Swap";
+"lcL-xI-kdF.text"           = "Benutzt:";
+"Bl3-qK-aX1.text"           = "Frei:";
+
+/******************************************************************************/
+/*                                                                            */
+/*  Monitor - Mounts                                                          */
+/*                                                                            */
+/******************************************************************************/
+
+"6OQ-hk-Eiw.text"           = "Gesamtkapazität:";
+"NxI-RM-hNH.text"           = "Benutzt:";
+"r8l-vp-RTM.text"           = "Verfügbar:";
+"WKR-fF-fll.text"           = "Super Benutzer:";
+
+/******************************************************************************/
+/*                                                                            */
+/*  Monitor - Network                                                         */
+/*                                                                            */
+/******************************************************************************/
+
+// Table cell - iPhone
+//
+"SIL-UC-FFR.text"           = "Gesamtmenge der übertragenen Daten";
+"yAS-Yg-J0w.text"           = "Empfangen:";
+"ETZ-zE-9ZB.text"           = "Gesendet:";
+"qcR-Sc-muY.text"           = "Übertragen seit:";
+"Bcj-TZ-Ebv.text"           = "Empfangen:";
+"zvN-zE-YDf.text"           = "Gesendet:";
+
+// Table cell - iPad
+//
+"maG-cO-Cmm.text"           = "Gesamtmenge der übertragenen Daten";
+"isb-9v-SXI.text"           = "Empfangen:";
+"GIg-tk-acH.text"           = "Gesendet:";
+"mrL-R1-zjK.text"           = "Übertragen seit:";
+"2JB-bY-GFI.text"           = "Empfangen:";
+"4bX-eW-fOF.text"           = "Gesendet:";

@@ -1,0 +1,57 @@
+/******************************************************************************/
+/*                                                                            */
+/*  GKrellM                                                                   */
+/*                                                                            */
+/*  Copyright (c) 2014 Meine Werke. All rights reserved.                      */
+/*                                                                            */
+/******************************************************************************/
+
+"BAR_BUTTON_GROUPS"                 = "Groepen";
+
+"SERVER_LIST_ACTION_STOP"           = "Stop";
+"SERVER_LIST_ACTION_EDIT"           = "Wijzig";
+"SERVER_LIST_ACTION_DELETE"         = "Verwijder";
+
+"UPTIME_PREFIX"                     = "Lopend";
+"UPTIME_DAYS"                       = "dag(en)";
+
+"CONNECTIONS_HEADER_ACTIVE"         = "Open verbindingen";
+"CONNECTIONS_HEADER_CLOSED"         = "Gesloten verbindingen";
+
+/******************************************************************************/
+/*                                                                            */
+/*  Alert messages.                                                           */
+/*                                                                            */
+/******************************************************************************/
+
+"ALERT_TITLE_CONFIRMATION"          = "Bevestigen";
+"ALERT_TITLE_WARNING"               = "Waarschuwing";
+"ALERT_TITLE_ERROR"                 = "Fout";
+"ALERT_TITLE_LITE_VERSION"          = "Lite-versie";
+
+"ALERT_BUTTON_CANCEL"               = "Afbreken";
+"ALERT_BUTTON_OK"                   = "OK";
+"ALERT_BUTTON_NO"                   = "Geen";
+"ALERT_BUTTON_YES"                  = "Ja";
+"ALERT_BUTTON_IGNORE"               = "Negeren";
+"ALERT_BUTTON_RECONNECT"            = "Aansluiten";
+
+"ALERT_DELETE_SERVER_MESSAGE"       = "Vermelding voor «%@» wilt verwijderen?";
+
+"ALERT_BAD_DNS_NAME"                = "«%@» heeft een ongeldige DNS-naam %@. Moet een hostnaam of IP-adres (IPv4 en IPv6 worden ondersteund).";
+
+"ALERT_SOCKET_READ_TIMED_OUT"       = "Verbinding met «%@» is vanwege timeout verloren gegaan. Verbinding opnieuw hestellen?";
+
+"ALERT_CONNECT_TIMED_OUT"           = "Kan niet met «%@» aansluiten: connection timeout.";
+
+"ALERT_CONNECTION_REFUSED"          = "Kan niet met «%@» aansluiten: verbinding door server geweigerd.";
+
+"ALERT_NO_ROUTE_TO_HOST"            = "Kan niet met «%@» onder DNS-naam %@ aansluiten: geen route naar host.";
+
+"ALERT_OTHER_SOCKET_ERROR"          = "Kan niet aansluiten met «%@» onder DNS-naam %@ en het poortnummer %d.";
+
+"ALERT_CONNECTION_LOST"             = "Verbinding met «%@» is verbroken. Verbinding opnieuw hestellen?";
+
+"ALERT_SERVER_ERROR"                = "Aansluiting met «%@» is afgebroken als gevolg van een GKrellM fout van de kant server. Tevreden, controle GKrellM instellingen op «%@».";
+
+"ALERT_YOU_ARE_USING_LITE_VERSION"  = "U kunt slechts één server in «GKrellM HD Lite» definiëren. Overschakelen naar «GKrellM HD Pro» om zich van vervelende advertenties te ontdoen en disable beperking van het aantal servers. U kunt «GKrellM HD Pro» in de App Store vinden.";

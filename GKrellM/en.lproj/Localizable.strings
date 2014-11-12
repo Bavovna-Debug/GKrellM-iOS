@@ -1,0 +1,57 @@
+/******************************************************************************/
+/*                                                                            */
+/*  GKrellM                                                                   */
+/*                                                                            */
+/*  Copyright (c) 2014 Meine Werke. All rights reserved.                      */
+/*                                                                            */
+/******************************************************************************/
+
+"BAR_BUTTON_GROUPS"                 = "Groups";
+
+"SERVER_LIST_ACTION_STOP"           = "Stop";
+"SERVER_LIST_ACTION_EDIT"           = "Edit";
+"SERVER_LIST_ACTION_DELETE"         = "Delete";
+
+"UPTIME_PREFIX"                     = "Uptime";
+"UPTIME_DAYS"                       = "day(s)";
+
+"CONNECTIONS_HEADER_ACTIVE"         = "Active connections";
+"CONNECTIONS_HEADER_CLOSED"         = "Closed connections";
+
+/******************************************************************************/
+/*                                                                            */
+/*  Alert messages.                                                           */
+/*                                                                            */
+/******************************************************************************/
+
+"ALERT_TITLE_CONFIRMATION"          = "Confirm";
+"ALERT_TITLE_WARNING"               = "Warning";
+"ALERT_TITLE_ERROR"                 = "Error";
+"ALERT_TITLE_LITE_VERSION"          = "Lite version";
+
+"ALERT_BUTTON_CANCEL"               = "Cancel";
+"ALERT_BUTTON_OK"                   = "OK";
+"ALERT_BUTTON_NO"                   = "No";
+"ALERT_BUTTON_YES"                  = "Yes";
+"ALERT_BUTTON_IGNORE"               = "Skip it";
+"ALERT_BUTTON_RECONNECT"            = "Reconnect";
+
+"ALERT_DELETE_SERVER_MESSAGE"       = "Delete record for «%@»?";
+
+"ALERT_BAD_DNS_NAME"                = "«%@» has invalid DNS name %@. Should be a hostname or IP address.";
+
+"ALERT_SOCKET_READ_TIMED_OUT"       = "Connection with «%@» has been lost due to data read timeout. Re-establish connection?";
+
+"ALERT_CONNECT_TIMED_OUT"           = "Connection to «%@» cannot be established: connection timed out.";
+
+"ALERT_CONNECTION_REFUSED"          = "Connection to «%@» cannot be established: connection refused by server.";
+
+"ALERT_NO_ROUTE_TO_HOST"            = "Connection to «%@» using DNS name %@ cannot be established: no route to host.";
+
+"ALERT_OTHER_SOCKET_ERROR"          = "Cannot connect to «%@» using DNS name %@ and port number %d.";
+
+"ALERT_CONNECTION_LOST"             = "Connection with «%@» has been lost. Should Spectator re-establish connection?";
+
+"ALERT_SERVER_ERROR"                = "Connection with «%@» has been cancelled by Spectator due to some GKrellM error on a server side. Please, check GKrellM settings on «%@».";
+
+"ALERT_YOU_ARE_USING_LITE_VERSION"  = "You can define only one server in «GKrellM HD Lite». Switch to «GKrellM HD Pro» to get rid of annoying ads and disable limitation on number of servers. You can find «GKrellM HD Pro» in App Store.";

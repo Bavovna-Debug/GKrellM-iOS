@@ -1,0 +1,57 @@
+/******************************************************************************/
+/*                                                                            */
+/*  GKrellM                                                                   */
+/*                                                                            */
+/*  Copyright (c) 2014 Meine Werke. All rights reserved.                      */
+/*                                                                            */
+/******************************************************************************/
+
+"BAR_BUTTON_GROUPS"                 = "Gruppen";
+
+"SERVER_LIST_ACTION_STOP"           = "Anhalten";
+"SERVER_LIST_ACTION_EDIT"           = "Ändern";
+"SERVER_LIST_ACTION_DELETE"         = "Löschen";
+
+"UPTIME_PREFIX"                     = "Läuft";
+"UPTIME_DAYS"                       = "Tag(e)";
+
+"CONNECTIONS_HEADER_ACTIVE"         = "Offene Verbindungen";
+"CONNECTIONS_HEADER_CLOSED"         = "Geschlossene Verbindungen";
+
+/******************************************************************************/
+/*                                                                            */
+/*  Alert messages.                                                           */
+/*                                                                            */
+/******************************************************************************/
+
+"ALERT_TITLE_CONFIRMATION"          = "Bestätigen";
+"ALERT_TITLE_WARNING"               = "Warnung";
+"ALERT_TITLE_ERROR"                 = "Fehler";
+"ALERT_TITLE_LITE_VERSION"          = "Lite-Version";
+
+"ALERT_BUTTON_CANCEL"               = "Abbrechen";
+"ALERT_BUTTON_OK"                   = "OK";
+"ALERT_BUTTON_NO"                   = "Nein";
+"ALERT_BUTTON_YES"                  = "Ja";
+"ALERT_BUTTON_IGNORE"               = "Ignorieren";
+"ALERT_BUTTON_RECONNECT"            = "Wiederherstellen";
+
+"ALERT_DELETE_SERVER_MESSAGE"       = "Eintrag für «%@» löschen?";
+
+"ALERT_BAD_DNS_NAME"                = "«%@» hat ungültigen DNS-Namen %@. Sollte ein Hostname oder IP-Adresse sein (IPv4 und IPv6 werden unterstützt).";
+
+"ALERT_SOCKET_READ_TIMED_OUT"       = "Verbindung mit «%@» wurde verloren. Soll die Verbindung wiederhergestellt werden?";
+
+"ALERT_CONNECT_TIMED_OUT"           = "Verbindung mit «%@» kann nicht erstellt werden: Zeitüberschreitung.";
+
+"ALERT_CONNECTION_REFUSED"          = "Verbindung mit «%@» kann nicht erstellt werden: Verbindung wurde seitens Server verweigert.";
+
+"ALERT_NO_ROUTE_TO_HOST"            = "Verbindung mit «%@» unter DNS-Namen %@ kann nicht erstellt werden: keine Verbindung.";
+
+"ALERT_OTHER_SOCKET_ERROR"          = "Kann nicht mit «%@» unter DNS-Namen %@ und Port-Nummer %d verbinden.";
+
+"ALERT_CONNECTION_LOST"             = "Verbindung mit «%@» wurde gebrochen. Soll die Verbindung wiederhergestellt werden?";
+
+"ALERT_SERVER_ERROR"                = "Verbindung mit «%@» wurde aufgrund eines GKrellM-Fehlers seitens Server abgebrochen. Bitte überprüfen Sie GKrellM Einstellungen auf «%@».";
+
+"ALERT_YOU_ARE_USING_LITE_VERSION"  = "Sie können nur ein Server in «GKrellM HD Lite» definieren. Wechseln Sie zu «GKrellM HD Pro» um die lästige Werbung einmal und für immer abzuschalten und Beschränkung auf die Anzahl von Servern loszuwerden. Sie können «GKrellM HD Pro» im App Store finden.";

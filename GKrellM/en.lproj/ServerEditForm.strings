@@ -1,0 +1,14 @@
+/******************************************************************************/
+/*                                                                            */
+/*  Server edit form                                                          */
+/*                                                                            */
+/******************************************************************************/
+
+"VyC-vF-MSn.text"   = "Computer name:";
+"fZ5-Cv-Lrk.text"   = "You can give a computer an associative name like «Main server», «Database server», «Office server», «Mike's laptop» ...";
+
+"37W-RG-aX0.text"   = "DNS name:";
+"ju5-Ne-3uS.text"   = "DNS name is either a hostname or IP address (IPv4 and IPv6 are supported).";
+
+"peN-K9-kG6.text"   = "Port number:";
+"ZQ3-Qh-Xsd.text"   = "GKrellM port number on a computer (default: 19150).";

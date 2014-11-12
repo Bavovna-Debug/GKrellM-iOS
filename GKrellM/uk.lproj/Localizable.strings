@@ -1,0 +1,57 @@
+/******************************************************************************/
+/*                                                                            */
+/*  GKrellM                                                                   */
+/*                                                                            */
+/*  Copyright (c) 2014 Meine Werke. All rights reserved.                      */
+/*                                                                            */
+/******************************************************************************/
+
+"BAR_BUTTON_GROUPS"                 = "Групи";
+
+"SERVER_LIST_ACTION_STOP"           = "Зупинити";
+"SERVER_LIST_ACTION_EDIT"           = "Змінити";
+"SERVER_LIST_ACTION_DELETE"         = "Видалити";
+
+"UPTIME_PREFIX"                     = "Працює";
+"UPTIME_DAYS"                       = "дн.";
+
+"CONNECTIONS_HEADER_ACTIVE"         = "Відкриті з'єднання";
+"CONNECTIONS_HEADER_CLOSED"         = "Завершені з'єднання";
+
+/******************************************************************************/
+/*                                                                            */
+/*  Alert messages.                                                           */
+/*                                                                            */
+/******************************************************************************/
+
+"ALERT_TITLE_CONFIRMATION"          = "Підтвердіть";
+"ALERT_TITLE_WARNING"               = "Попередження";
+"ALERT_TITLE_ERROR"                 = "Помилка";
+"ALERT_TITLE_LITE_VERSION"          = "Обмежена версія";
+
+"ALERT_BUTTON_CANCEL"               = "Відміна";
+"ALERT_BUTTON_OK"                   = "OK";
+"ALERT_BUTTON_NO"                   = "Ні";
+"ALERT_BUTTON_YES"                  = "Так";
+"ALERT_BUTTON_IGNORE"               = "Ігнорувати";
+"ALERT_BUTTON_RECONNECT"            = "Відновити";
+
+"ALERT_DELETE_SERVER_MESSAGE"       = "Видалити запис про «%@»?";
+
+"ALERT_BAD_DNS_NAME"                = "«%@» має неправильне DNS ім'я %@. DNS ім'ям має бути ім'я хоста або IP-адрес (підтримуються IPv4 і IPv6).";
+
+"ALERT_SOCKET_READ_TIMED_OUT"       = "З'єднання з «%@» перервано. Відновити з'єднання?";
+
+"ALERT_CONNECT_TIMED_OUT"           = "Неможливо підключитись до «%@»: тайм-аут підключення.";
+
+"ALERT_CONNECTION_REFUSED"          = "Неможливо підключитись до «%@»: запит до з'єднання відмовлено сервером.";
+
+"ALERT_NO_ROUTE_TO_HOST"            = "Неможливо підключитись до «%@» використовуючи DNS ім'я %@: зв'язок відсутній.";
+
+"ALERT_OTHER_SOCKET_ERROR"          = "Неможливо підключитись до «%@» використовуючи DNS ім'я %@ і номер порту %d.";
+
+"ALERT_CONNECTION_LOST"             = "Зв'язок з «%@» перервано. Відновити зв'язок?";
+
+"ALERT_SERVER_ERROR"                = "Зв'язок з «%@» було перервано через помилку GKrellM зі сторони комп'ютера. Будь ласка, перевірте налаштування GKrellM на «%@».";
+
+"ALERT_YOU_ARE_USING_LITE_VERSION"  = "Ви можете визначити тільки один сервер у «GKrellM HD Lite». Перейдіть до «GKrellM HD Pro» щоб позбутися від докучливої реклами і відключити обмеження на кількість серверів. Ви можете знайти «GKrellM HD Pro» в App Store.";

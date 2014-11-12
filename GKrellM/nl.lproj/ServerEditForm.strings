@@ -1,0 +1,14 @@
+/******************************************************************************/
+/*                                                                            */
+/*  Server edit form                                                          */
+/*                                                                            */
+/******************************************************************************/
+
+"VyC-vF-MSn.text"   = "Computernaam:";
+"fZ5-Cv-Lrk.text"   = "U kunt een computer een associatieve naam geven, bij voorbeeld «Hoofdserver», «Databaseserver», «Kantoorserver», «Laptop van Emil» ...";
+
+"37W-RG-aX0.text"   = "DNS-naam:";
+"ju5-Ne-3uS.text"   = "DNS-naam is ofwel een hostnaam of IP-adres (IPv4 en IPv6 worden ondersteund).";
+
+"peN-K9-kG6.text"   = "Poortnummer:";
+"ZQ3-Qh-Xsd.text"   = "Gkrellm poortnummer op een computer (standaard: 19150).";

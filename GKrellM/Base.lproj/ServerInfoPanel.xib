@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <viewController restorationIdentifier="ServerInfoPanel" storyboardIdentifier="ServerInfoPanel" modalPresentationStyle="formSheet" id="SNj-EF-EGJ" userLabel="Server Information View Controller" customClass="ServerInfoViewController">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="Hiy-1H-HA3"/>
+                <viewControllerLayoutGuide type="bottom" id="QrK-LY-8C5"/>
+            </layoutGuides>
+            <view key="view" autoresizesSubviews="NO" contentMode="scaleAspectFill" id="X0K-UB-KTx">
+                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4y-48-6aa" userLabel="Server Name">
+                        <rect key="frame" x="16" y="8" width="568" height="32"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iva-bB-oNg">
+                        <rect key="frame" x="0.0" y="44" width="600" height="84"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SQB-YW-NMF" userLabel="Host Name">
+                                <rect key="frame" x="16" y="8" width="568" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PYp-HR-agI" userLabel="System Name">
+                                <rect key="frame" x="16" y="32" width="568" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M1Y-mJ-FfE" userLabel="GKrellM Version">
+                                <rect key="frame" x="16" y="56" width="568" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="SQB-YW-NMF" firstAttribute="leading" secondItem="Iva-bB-oNg" secondAttribute="leading" constant="16" id="Byr-Za-I7S"/>
+                            <constraint firstAttribute="trailing" secondItem="PYp-HR-agI" secondAttribute="trailing" constant="16" id="NaC-CN-ize"/>
+                            <constraint firstAttribute="trailing" secondItem="M1Y-mJ-FfE" secondAttribute="trailing" constant="16" id="NuL-Pf-twZ"/>
+                            <constraint firstAttribute="trailing" secondItem="SQB-YW-NMF" secondAttribute="trailing" constant="16" id="c7M-q3-ZP2"/>
+                            <constraint firstItem="PYp-HR-agI" firstAttribute="leading" secondItem="Iva-bB-oNg" secondAttribute="leading" constant="16" id="kQQ-Lv-Z1G"/>
+                            <constraint firstItem="M1Y-mJ-FfE" firstAttribute="leading" secondItem="Iva-bB-oNg" secondAttribute="leading" constant="16" id="yrZ-Gj-y3S"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6t-Ih-yK8" userLabel="Uptime">
+                        <rect key="frame" x="16" y="136" width="568" height="32"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="Iva-bB-oNg" secondAttribute="trailing" constant="-16" id="Nh9-To-emK"/>
+                    <constraint firstItem="o4y-48-6aa" firstAttribute="leading" secondItem="X0K-UB-KTx" secondAttribute="leadingMargin" id="ORg-9E-D0m"/>
+                    <constraint firstItem="Iva-bB-oNg" firstAttribute="leading" secondItem="X0K-UB-KTx" secondAttribute="leadingMargin" constant="-16" id="YeM-oO-txG"/>
+                    <constraint firstItem="o4y-48-6aa" firstAttribute="trailing" secondItem="X0K-UB-KTx" secondAttribute="trailingMargin" id="cQZ-lm-f5w"/>
+                    <constraint firstItem="J6t-Ih-yK8" firstAttribute="leading" secondItem="X0K-UB-KTx" secondAttribute="leadingMargin" id="dla-ck-pDM"/>
+                    <constraint firstItem="J6t-Ih-yK8" firstAttribute="trailing" secondItem="X0K-UB-KTx" secondAttribute="trailingMargin" id="ih2-Mr-5LS"/>
+                </constraints>
+            </view>
+            <extendedEdge key="edgesForExtendedLayout"/>
+            <value key="contentSizeForViewInPopover" type="size" width="400" height="200"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <size key="freeformSize" width="600" height="600"/>
+            <connections>
+                <outlet property="hostNameLabel" destination="SQB-YW-NMF" id="3TM-Uu-7Zn"/>
+                <outlet property="serverNameLabel" destination="o4y-48-6aa" id="goe-5K-PPW"/>
+                <outlet property="systemNameLabel" destination="PYp-HR-agI" id="Jdc-PX-zSy"/>
+                <outlet property="uptimeLabel" destination="J6t-Ih-yK8" id="He5-ZK-TkE"/>
+                <outlet property="versionLabel" destination="M1Y-mJ-FfE" id="jfG-Ks-lft"/>
+            </connections>
+            <point key="canvasLocation" x="1460" y="129"/>
+        </viewController>
+    </objects>
+</document>
