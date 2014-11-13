@@ -40,9 +40,12 @@
 {
     [[self.server networkRecorder] setDelegate:nil];
 
-    [self.stopwatchTimer invalidate];
-    self.stopwatchTimer = nil;
-    
+    if (self.stopwatchTimer != nil) {
+        NSTimer *timer = self.stopwatchTimer;
+        self.stopwatchTimer = nil;
+        [timer invalidate];
+    }
+
     [super viewDidDisappear:animated];
 }
 

@@ -60,6 +60,9 @@
 
 - (void)saveServerList
 {
+    if ([Banner sharedBanner] != nil)
+        return;
+
     XMLDocument *document = [XMLDocument documentWithTarget:ServerListTarget
                                                     version:ServerListVersion];
 

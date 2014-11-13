@@ -264,8 +264,9 @@ typedef enum {
     forcedDisconnect = YES;
     
     if (self.cpuRangeTimer != nil) {
-        [self.cpuRangeTimer invalidate];
+        NSTimer *timer = self.cpuRangeTimer;
         self.cpuRangeTimer = nil;
+        [timer invalidate];
     }
     
     [socket disconnect];
