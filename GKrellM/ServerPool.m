@@ -133,8 +133,17 @@
 {
     ServerGroup *serverGroup;
     if ([self.serverGroups count] == 0) {
-        serverGroup = [ServerGroup serverGroupWithName:@"Demo"];
-        [self.serverGroups addObject:serverGroup];
+        Banner *banner = [Banner sharedBanner];
+        if (banner != nil) {
+            serverGroup = [ServerGroup serverGroupWithName:@"Demo"];
+            [self.serverGroups addObject:serverGroup];
+        } else {
+            serverGroup = [ServerGroup serverGroupWithName:@"Office"];
+            [self.serverGroups addObject:serverGroup];
+            [self.serverGroups addObject:[ServerGroup serverGroupWithName:@"Private"]];
+            [self.serverGroups addObject:[ServerGroup serverGroupWithName:@"Mobile"]];
+            [self.serverGroups addObject:[ServerGroup serverGroupWithName:@"Test"]];
+        }
     } else {
         serverGroup = [self.serverGroups firstObject];
 

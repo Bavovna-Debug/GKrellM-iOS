@@ -335,6 +335,9 @@ titleForFooterInSection:(NSInteger)section
                 [cell setConnection:connection];
             //}
 
+            if ([cell connection] != connection)
+                [self.closedQueue addObject:connection];
+
             return cell;
         } else if (indexPath.section == 1) {
             SRVConnectionRecord *connection = [self.closedRows objectAtIndex:indexPath.row];

@@ -205,11 +205,6 @@
 		94E8F4851A07BB9700E0CED1 /* Servers.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Servers.xml; sourceTree = "<group>"; };
 		94E8F4871A07BBB400E0CED1 /* BarGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarGraph.h; sourceTree = "<group>"; };
 		94E8F4881A07BBB400E0CED1 /* BarGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarGraph.m; sourceTree = "<group>"; };
-		94E8F4921A07C38600E0CED1 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		94E8F4941A07C38C00E0CED1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		94E8F4961A07C39B00E0CED1 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		94E8F4981A07C3A500E0CED1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		94E8F49A1A07C3AD00E0CED1 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		94E8F49C1A07C3C300E0CED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/ServerInfoPanel.xib; sourceTree = "<group>"; };
 		94E8F4A21A07C41800E0CED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94E8F4A51A07C43500E0CED1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
@@ -815,11 +810,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				94E8F3F91A0788BB00E0CED1 /* Base */,
-				94E8F4921A07C38600E0CED1 /* de */,
-				94E8F4941A07C38C00E0CED1 /* fr */,
-				94E8F4961A07C39B00E0CED1 /* nl */,
-				94E8F4981A07C3A500E0CED1 /* ru */,
-				94E8F49A1A07C3AD00E0CED1 /* uk */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";

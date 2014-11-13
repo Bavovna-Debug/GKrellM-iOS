@@ -270,11 +270,11 @@ moveRowAtIndexPath:(NSIndexPath *)sourceIndexPath
 - (BOOL)tableView:(UITableView *)tableView
 canEditRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if ([tableView isEditing] == NO) {
+    /*if ([tableView isEditing] == NO) {
         [self.navigationItem setRightBarButtonItem:self.addServerButton];
     } else {
         [self.navigationItem setRightBarButtonItem:self.showServerGroupsButton];
-    }
+    }*/
 
     return YES;
 }

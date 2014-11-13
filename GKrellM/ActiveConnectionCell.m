@@ -62,7 +62,7 @@
 {
     _connection = connection;
 
-    //[connection setDelegate:self];
+    [connection setDelegate:self];
 
     NSString *ipAddress = [connection ipAddress];
     UInt16 remotePort = [connection remotePort];
@@ -92,7 +92,11 @@
     [self.remoteHostLabel setText:[NSString stringWithFormat:@"%@ (%d)", ipAddress, remotePort]];
     [self.timestampLabel setText:timestampText];
 
-    if ([connection closedStamp] != nil) {
+    if ([connection active] == NO) {
+        NSLog(@"Connection already closed");
+
+        [connection setDelegate:nil];
+
         [self animateDisappearance];
     } else {
         NSDate *now = [NSDate date];
@@ -153,7 +157,8 @@
 
 - (void)connectionClosed:(SRVConnectionRecord *)connectionRecord
 {
-    [self animateDisappearance];
+    if (connectionRecord == self.connection)
+        [self animateDisappearance];
 }
 
 @end
