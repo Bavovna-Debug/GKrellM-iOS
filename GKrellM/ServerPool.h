@@ -6,7 +6,11 @@
 
 #import <Foundation/Foundation.h>
 
+#ifdef DEBUG
+#define SCREENSHOTING
+#else
 #undef SCREENSHOTING
+#endif
 
 @protocol ServerPoolDelegate;
 @protocol CurrentServerDelegate;

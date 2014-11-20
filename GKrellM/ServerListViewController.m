@@ -231,7 +231,8 @@ titleForFooterInSection:(NSInteger)section
     Server *server = [serverGroup.servers objectAtIndex:indexPath.row];
 
     UITableViewCell *cell;
-    cell = [tableView dequeueReusableCellWithIdentifier:@"ServerListCell"];
+    cell = [tableView dequeueReusableCellWithIdentifier:@"ServerListCell"
+                                           forIndexPath:indexPath];
 
     NSString *detailText = (server.portNumber == DefaultPortNumber)
         ? [server dnsName]
