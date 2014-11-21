@@ -55,7 +55,7 @@
     [super viewDidDisappear:animated];
 }
 
-#pragma mark Service delegate
+#pragma mark - Service delegate
 
 - (void)mountsReset:(SRVMountsRecorder *)mountsRecorder
 {
@@ -83,7 +83,7 @@
     }
 }
 
-#pragma mark UITableView delegate
+#pragma mark - UITableView delegate
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
@@ -105,7 +105,7 @@
     return cell;
 }
 
-#pragma mark Swipe
+#pragma mark - Swipe
 
 - (void)cellSwipeLeft:(UISwipeGestureRecognizer *)gesture
 {

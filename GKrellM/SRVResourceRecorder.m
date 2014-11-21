@@ -8,7 +8,7 @@
 
 @implementation SRVResourceRecorder
 
-#pragma mark Virtual methods
+#pragma mark - Virtual methods
 
 - (void)serverDidConnect { }
 

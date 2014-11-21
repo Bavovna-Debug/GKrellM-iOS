@@ -23,7 +23,7 @@
 
 @synthesize server = _server;
 
-#pragma mark UI events
+#pragma mark - UI events
 
 - (void)awakeFromNib
 {
@@ -69,7 +69,7 @@
     return YES;
 }
 
-#pragma mark UIButton events
+#pragma mark - UIButton events
 
 - (IBAction)didTouchCancelButton:(id)sender
 {

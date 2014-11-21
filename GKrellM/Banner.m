@@ -16,7 +16,7 @@
 
 @implementation Banner
 
-#pragma mark Object cunstructors/destructors
+#pragma mark - Object cunstructors/destructors
 
 + (Banner *)sharedBanner
 {
@@ -60,7 +60,7 @@
     }
 }
 
-#pragma mark Ad banner delegate
+#pragma mark - Ad banner delegate
 
 - (void)bannerViewDidLoadAd:(ADBannerView *)banner
 {
@@ -83,7 +83,7 @@ didFailToReceiveAdWithError:(NSError *)error
         [self.bannerView setAlpha:0.0f];
 }
 
-#pragma mark Alerts
+#pragma mark - Alerts
 
 - (void)alertLimitationOnNumberOfServers
 {

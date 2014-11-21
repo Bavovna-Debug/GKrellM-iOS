@@ -16,7 +16,7 @@
 
 @synthesize server = _server;
 
-#pragma mark Draw
+#pragma mark - Draw
 
 - (void)drawRect:(CGRect)rect
 {

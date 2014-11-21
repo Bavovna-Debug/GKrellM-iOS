@@ -22,7 +22,7 @@
 
 //@synthesize delegate = _delegate;
 
-#pragma mark Object cunstructors/destructors
+#pragma mark - Object cunstructors/destructors
 
 - (id)initWithDeviceName:(NSString *)deviceName
               mountPoint:(NSString *)mountPoint

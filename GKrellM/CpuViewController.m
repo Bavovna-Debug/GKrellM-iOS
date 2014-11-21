@@ -154,7 +154,7 @@
     [self.swapFreeBlock setLabelColor:[UIColor whiteColor]];
 }
 
-#pragma mark Service delegate
+#pragma mark - Service delegate
 
 - (void)processorDataArrived:(SRVProcessorsRecorder *)recorder
 {
@@ -219,7 +219,7 @@
     [self.swapBar refreshBlocks:1.0f];
 }
 
-#pragma mark Refresh
+#pragma mark - Refresh
 
 - (void)refreshProcessorCharts:(SRVProcessorsRecorder *)recorder
 {

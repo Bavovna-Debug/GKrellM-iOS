@@ -153,7 +153,7 @@
     [UIView commitAnimations];
 }
 
-#pragma mark Connection record delegate
+#pragma mark - Connection record delegate
 
 - (void)connectionClosed:(SRVConnectionRecord *)connectionRecord
 {

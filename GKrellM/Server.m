@@ -74,7 +74,7 @@ typedef enum {
 @synthesize reconnectImmediately  = _reconnectImmediately;
 @synthesize connectionTimeout     = _connectionTimeout;
 
-#pragma mark Object cunstructors/destructors
+#pragma mark - Object cunstructors/destructors
 
 + (Server *)serverWithId:(NSString *)serverId
               serverName:(NSString *)serverName
@@ -147,7 +147,7 @@ typedef enum {
     return self;
 }
 
-#pragma mark XML
+#pragma mark - XML
 
 - (XMLElement *)saveToXML
 {
@@ -165,7 +165,7 @@ typedef enum {
     return server;
 }
 
-#pragma mark Set/change server parameters
+#pragma mark - Set/change server parameters
 
 - (void)setServerName:(NSString *)serverName
 {
@@ -197,7 +197,7 @@ typedef enum {
     }
 }
 
-#pragma mark Monitoring
+#pragma mark - Monitoring
 
 - (Boolean)monitoring
 {
@@ -224,7 +224,7 @@ typedef enum {
     [self disconnect];
 }
 
-#pragma mark Connection
+#pragma mark - Connection
 
 - (void)connect
 {
@@ -339,7 +339,7 @@ didConnectToHost:(NSString *)host
     [[ServerPool sharedServerPool] serverSatusChanged:self];
 }
 
-#pragma mark Network communication
+#pragma mark - Network communication
 
 - (void)socket:(GCDAsyncSocket *)sock
    didReadData:(NSData *)data
@@ -368,7 +368,7 @@ didConnectToHost:(NSString *)host
                        tag:0];
 }
 
-#pragma mark Parse input information
+#pragma mark - Parse input information
 
 - (void)processIntroduction:(NSString *)response
 {
@@ -582,7 +582,7 @@ didConnectToHost:(NSString *)host
         [self.monitoringDelegate serverUptimeReported];
 }
 
-#pragma mark Error messages
+#pragma mark - Error messages
 
 - (void)alertSocketError:(NSInteger)errorCode
 {

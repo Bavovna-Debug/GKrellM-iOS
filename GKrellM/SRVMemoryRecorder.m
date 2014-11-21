@@ -25,7 +25,7 @@
 
 @synthesize delegate = _delegate;
 
-#pragma mark Object cunstructors/destructors
+#pragma mark - Object cunstructors/destructors
 
 - (id)initWithServer:(Server *)server
 {
@@ -46,7 +46,7 @@
         [delegate memoryDataArrived:self];
 }
 
-#pragma mark Parse input information
+#pragma mark - Parse input information
 
 - (void)parseLine:(NSString *)line
 {

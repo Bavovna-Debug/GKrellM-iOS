@@ -133,7 +133,7 @@
     }
 }
 
-#pragma mark Service delegate
+#pragma mark - Service delegate
 
 - (void)connectionsCleared:(SRVConnectionsRecorder *)connectionsRecorder
 {
@@ -152,7 +152,7 @@
     [self.closedQueue addObject:connection];
 }
 
-#pragma mark Queue
+#pragma mark - Queue
 
 - (void)processQueue
 {
@@ -280,7 +280,7 @@
             [self.closedQueue addObject:connection];
 }
 
-#pragma mark UITableView delegate
+#pragma mark - UITableView delegate
 
 - (NSString *)tableView:(UITableView *)tableView
 titleForHeaderInSection:(NSInteger)section

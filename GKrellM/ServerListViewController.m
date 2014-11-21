@@ -25,7 +25,7 @@
     Server *serverUnderCursor;
 }
 
-#pragma mark UI events
+#pragma mark - UI events
 
 - (void)awakeFromNib
 {
@@ -193,7 +193,7 @@
     }
 }
 
-#pragma mark UITableView delegate
+#pragma mark - UITableView delegate
 
 - (NSString *)tableView:(UITableView *)tableView
 titleForHeaderInSection:(NSInteger)section
@@ -333,7 +333,7 @@ accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath
     [self openServerInfoPanel:server];
 }
 
-#pragma mark Server pool delegate
+#pragma mark - Server pool delegate
 
 - (void)serverListChanged:(ServerPool *)serverPool
 {
@@ -370,7 +370,7 @@ serverSatusChanged:(NSObject *)server
     }
 }
 
-#pragma mark Alert delegate
+#pragma mark - Alert delegate
 
 - (void)alertView:(UIAlertView *)alertView
 clickedButtonAtIndex:(NSInteger)buttonIndex

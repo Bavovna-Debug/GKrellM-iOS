@@ -22,7 +22,7 @@
 @synthesize currentServerDelegate  = _currentServerDelegate;
 @synthesize currentServer          = _currentServer;
 
-#pragma mark Object cunstructors/destructors
+#pragma mark - Object cunstructors/destructors
 
 + (ServerPool *)sharedServerPool
 {
@@ -56,7 +56,7 @@
                         currentServerChangedTo:currentServer];
 }
 
-#pragma mark Server list
+#pragma mark - Server list
 
 - (void)saveServerList
 {
@@ -110,7 +110,7 @@
     NSLog(@"Server list loaded.");
 }
 
-#pragma mark Events
+#pragma mark - Events
 
 - (void)prepareForBackground
 {
@@ -130,7 +130,7 @@
                serverSatusChanged:server];
 }
 
-#pragma mark API
+#pragma mark - API
 
 - (void)addNewServer:(Server *)server
 {

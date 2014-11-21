@@ -24,7 +24,7 @@
 @synthesize delegate  = _delegate;
 @synthesize gaging    = _gaging;
 
-#pragma mark Object cunstructors/destructors
+#pragma mark - Object cunstructors/destructors
 
 - (id)initWithInterfaceName:(NSString *)interfaceName
                rxBytesTotal:(UInt64)rxBytesTotal
@@ -43,7 +43,7 @@
     return self;
 }
 
-#pragma mark Class specific
+#pragma mark - Class specific
 
 - (void)trafficRxBytes:(UInt64)rxBytes
                txBytes:(UInt64)txBytes

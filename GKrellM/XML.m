@@ -131,7 +131,7 @@
     return [NSString stringWithUTF8String:data.bytes];
 }
 
-#pragma mark XML parser
+#pragma mark - XML parser
 
 - (void)parserDidEndDocument:(NSXMLParser *)parser
 {
@@ -271,7 +271,7 @@ foundCharacters:(NSString *)string
     }
 }
 
-#pragma mark API
+#pragma mark - API
 
 - (void)addElement:(XMLElement *)element
 {

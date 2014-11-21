@@ -41,7 +41,7 @@
     return self;
 }
 
-#pragma mark XML
+#pragma mark - XML
 
 - (XMLElement *)saveToXML
 {

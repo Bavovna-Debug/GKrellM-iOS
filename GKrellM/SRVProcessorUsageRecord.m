@@ -19,7 +19,7 @@
 
 @implementation SRVProcessorUsageRecord
 
-#pragma mark Object cunstructors/destructors
+#pragma mark - Object cunstructors/destructors
 
 - (id)init
 {
@@ -59,7 +59,7 @@
     return self;
 }
 
-#pragma mark Class specific
+#pragma mark - Class specific
 
 - (void)addUserTime:(UInt64)userTime
            niceTime:(UInt64)niceTime

@@ -20,7 +20,7 @@
 
 @synthesize delegate = _delegate;
 
-#pragma mark Object cunstructors/destructors
+#pragma mark - Object cunstructors/destructors
 
 - (id)initWithIpAddress:(NSString *)ipAddress
              remotePort:(UInt16)remotePort
@@ -40,7 +40,7 @@
     return self;
 }
 
-#pragma mark Class specific
+#pragma mark - Class specific
 
 - (Boolean)active
 {
