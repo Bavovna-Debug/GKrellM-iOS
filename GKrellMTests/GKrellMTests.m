@@ -3,7 +3,7 @@
 //  GKrellMTests
 //
 //  Created by Maxim Shchetynin on 03.11.14.
-//  Copyright (c) 2014 Meine Werke. All rights reserved.
+//  Copyright (c) 2014-2015 Meine Werke. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

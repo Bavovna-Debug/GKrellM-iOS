@@ -1,11 +1,10 @@
 //
 //  GKrellM
 //
-//  Copyright (c) 2014 Meine Werke. All rights reserved.
+//  Copyright (c) 2014-2015 Meine Werke. All rights reserved.
 //
 
 #import "Banner.h"
-#import "Server.h"
 #import "ServerGroup.h"
 #import "ServerPool.h"
 #import "XML.h"
@@ -100,8 +99,8 @@
 #endif
     XMLDocument *document = [XMLDocument documentFromData:serversData];
 
-    XMLElement *serversElement = [document forest];
-    for (XMLElement *groupElement in [serversElement elements])
+    XMLElement *servers = [document forest];
+    for (XMLElement *groupElement in [servers elements])
     {
         ServerGroup *serverGroup = [ServerGroup serverGroupFromXML:groupElement];
         [self.serverGroups addObject:serverGroup];

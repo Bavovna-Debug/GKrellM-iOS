@@ -1,14 +1,13 @@
 //
 //  GKrellM
 //
-//  Copyright (c) 2014 Meine Werke. All rights reserved.
+//  Copyright (c) 2014-2015 Meine Werke. All rights reserved.
 //
 
 #import "ApplicationDelegate.h"
 #import "Banner.h"
 #import "ServerListViewController.h"
 #import "MonitorTabBarController.h"
-#import "ServerEditViewController.h"
 #import "ServerPool.h"
 
 @interface ApplicationDelegate () <UISplitViewControllerDelegate>
@@ -69,6 +68,40 @@ collapseSecondaryViewController:(UIViewController *)secondaryViewController
   ontoPrimaryViewController:(UIViewController *)primaryViewController
 {
     return [[ServerPool sharedServerPool] currentServer] == nil;
+}
+
+- (void)application:(UIApplication *)application
+handleWatchKitExtensionRequest:(NSDictionary *)userInfo
+              reply:(void (^)(NSDictionary *))reply
+{
+    NSLog(@"In iOS");
+
+    NSString *title = [userInfo objectForKey:@"key1"];
+    NSString *message = [userInfo objectForKey:@"request"];
+
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:title
+                                                        message:message
+                                                       delegate:self
+                                              cancelButtonTitle:@"CANCEL"
+                                              otherButtonTitles:nil];
+
+    [alertView setAlertViewStyle:UIAlertViewStyleDefault];
+    [alertView show];
+
+    __block UIBackgroundTaskIdentifier watchKitHandler;
+    watchKitHandler = [[UIApplication sharedApplication]
+                       beginBackgroundTaskWithName:@"backgroundTask"
+                       expirationHandler:^{
+                           watchKitHandler = UIBackgroundTaskInvalid;
+                       }];
+
+    if ([[userInfo objectForKey:@"request"] isEqualToString:@"getData"]) {
+        reply(nil);
+    }
+
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)NSEC_PER_SEC * 1), dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        [[UIApplication sharedApplication] endBackgroundTask:watchKitHandler];
+    });
 }
 
 @end

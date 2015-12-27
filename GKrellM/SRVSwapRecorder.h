@@ -1,7 +1,7 @@
 //
 //  GKrellM
 //
-//  Copyright (c) 2014 Meine Werke. All rights reserved.
+//  Copyright (c) 2014-2015 Meine Werke. All rights reserved.
 //
 
 #import "SRVResourceRecorder.h"

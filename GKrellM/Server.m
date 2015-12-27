@@ -1,7 +1,7 @@
 //
 //  GKrellM
 //
-//  Copyright (c) 2014 Meine Werke. All rights reserved.
+//  Copyright (c) 2014-2015 Meine Werke. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -207,6 +207,23 @@ typedef enum {
 - (void)startMonitoring
 {
     [self connect];
+
+    NSUserDefaults *defaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.Zeppelinium.GKrellM"];
+    [defaults setObject:self.serverName forKey:@"test"];
+    [defaults synchronize];
+
+
+    NSString *trackingString = self.serverName;
+
+    NSMutableDictionary *payload = [[NSMutableDictionary alloc] init];
+    [payload setObject:trackingString forKey:@"serverName"];
+    [payload setObject:trackingString forKey:@"serverName2"];
+
+    CFNotificationCenterPostNotification(CFNotificationCenterGetDarwinNotifyCenter(),
+                                         CFSTR("startMonitoring"),
+                                         (__bridge const void *)self,
+                                         (__bridge CFDictionaryRef)payload,
+                                         TRUE);
 }
 
 - (void)stopMonitoring
@@ -234,9 +251,9 @@ typedef enum {
     NSString *dnsName;
 #ifdef SCREENSHOTING
     if ([self.serverName compare:@"Dr. Zoidberg"] == NSOrderedSame)
-        dnsName = @"zoid.fritz.box";
+        dnsName = @"zoidberg.zeppelinium.de";
     else if ([self.serverName compare:@"DB2"] == NSOrderedSame)
-        dnsName = @"zack.fritz.box";
+        dnsName = @"zoidberg.zeppelinium.de";
     else
         dnsName = @"stratus.fritz.box";
 #else
@@ -784,6 +801,8 @@ didConnectToHost:(NSString *)host
     [alertView setAlertViewStyle:UIAlertViewStyleDefault];
     [alertView show];
 }
+
+#pragma mark - UIAlertView delegate
 
 - (void)alertView:(UIAlertView *)alertView
 clickedButtonAtIndex:(NSInteger)buttonIndex
