@@ -4,6 +4,8 @@
 //  Copyright (c) 2014-2015 Meine Werke. All rights reserved.
 //
 
+#import <WatchConnectivity/WatchConnectivity.h>
+
 #import "InterfaceController.h"
 #import "Server.h"
 
@@ -51,10 +53,24 @@ static id staticInterfaceController;
     [userInfo setObject:@"content" forKey:@"key1"];
     [userInfo setObject:@"getData" forKey:@"request"];
 
+    NSString *stringToSend = @"Moin";
+    NSData *dataToSend = [stringToSend dataUsingEncoding:NSUTF8StringEncoding];
+
+    WCSession *session = [WCSession defaultSession];
+    [session sendMessageData:dataToSend
+                replyHandler:^(NSData *replyMessageData) {
+                    NSLog(@"In Watch");
+                }
+                errorHandler:^(NSError *error) {
+                    NSLog(@"In Watch");
+                }];
+
+    /*
     [WKInterfaceController openParentApplication:userInfo
                                            reply:^(NSDictionary *replyInfo, NSError *error) {
                                                NSLog(@"In Watch");
                                            }];
+     */
 }
 
 - (void)registerForNotificationsWithIdentifier:(nullable NSString *)identifier
@@ -98,6 +114,3 @@ void wormholeNotificationCallback(CFNotificationCenterRef center,
 }
 
 @end
-
-
-
