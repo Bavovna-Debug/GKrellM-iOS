@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9431DB9B1ABF5FAF005DD497 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9431DB9A1ABF5FAF005DD497 /* InterfaceController.m */; };
-		9431DB9E1ABF5FAF005DD497 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9431DB9D1ABF5FAF005DD497 /* NotificationController.m */; };
-		9431DBA11ABF5FAF005DD497 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9431DBA01ABF5FAF005DD497 /* GlanceController.m */; };
-		9431DBA31ABF5FAF005DD497 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9431DBA21ABF5FAF005DD497 /* Images.xcassets */; };
-		9431DBAF1ABF5FB0005DD497 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9431DBAD1ABF5FAF005DD497 /* Interface.storyboard */; };
-		9431DBB11ABF5FB0005DD497 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9431DBB01ABF5FB0005DD497 /* Images.xcassets */; };
 		946291981A0A496200235877 /* CpuGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 946291971A0A496200235877 /* CpuGraph.m */; };
 		946291AA1A0B4F3800235877 /* Designer.m in Sources */ = {isa = PBXBuildFile; fileRef = 946291A91A0B4F3800235877 /* Designer.m */; };
 		946291AF1A0B7D0A00235877 /* ServerEditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 946291AE1A0B7D0A00235877 /* ServerEditCell.m */; };
@@ -22,7 +16,6 @@
 		94D4E10C1B6A99270054732B /* ServerDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94D4E1091B6A99270054732B /* ServerDataModel.xcdatamodeld */; };
 		94D4E10D1B6A99270054732B /* ServerDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94D4E1091B6A99270054732B /* ServerDataModel.xcdatamodeld */; };
 		94E46EF01C661D5A007D2055 /* GKrellM HD WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9431DB941ABF5FAF005DD497 /* GKrellM HD WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		94E46EF31C661D5A007D2055 /* GKrellM HD WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9431DBA61ABF5FAF005DD497 /* GKrellM HD WatchKit App.app */; };
 		94E8F3EC1A0788BB00E0CED1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E8F3EB1A0788BB00E0CED1 /* main.m */; };
 		94E8F3EF1A0788BB00E0CED1 /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E8F3EE1A0788BB00E0CED1 /* ApplicationDelegate.m */; };
 		94E8F3F71A0788BB00E0CED1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E8F3F61A0788BB00E0CED1 /* Images.xcassets */; };
@@ -126,13 +119,6 @@
 			remoteGlobalIDString = 9431DB931ABF5FAF005DD497;
 			remoteInfo = "GKrellM HD WatchKit Extension";
 		};
-		94E46EF11C661D5A007D2055 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 94E8F3DE1A0788BA00E0CED1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9431DBA51ABF5FAF005DD497;
-			remoteInfo = "GKrellM HD WatchKit App";
-		};
 		94E8F4001A0788BB00E0CED1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 94E8F3DE1A0788BA00E0CED1 /* Project object */;
@@ -154,34 +140,11 @@
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94E46EF51C661D5A007D2055 /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				94E46EF31C661D5A007D2055 /* GKrellM HD WatchKit App.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9431DB941ABF5FAF005DD497 /* GKrellM HD WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GKrellM HD WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9431DB971ABF5FAF005DD497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9431DB981ABF5FAF005DD497 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		9431DB991ABF5FAF005DD497 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
-		9431DB9A1ABF5FAF005DD497 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
-		9431DB9C1ABF5FAF005DD497 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
-		9431DB9D1ABF5FAF005DD497 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
-		9431DB9F1ABF5FAF005DD497 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
-		9431DBA01ABF5FAF005DD497 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
-		9431DBA21ABF5FAF005DD497 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9431DBA61ABF5FAF005DD497 /* GKrellM HD WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GKrellM HD WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9431DBAC1ABF5FAF005DD497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9431DBAE1ABF5FAF005DD497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		9431DBB01ABF5FB0005DD497 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		946291961A0A496200235877 /* CpuGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CpuGraph.h; sourceTree = "<group>"; };
 		946291971A0A496200235877 /* CpuGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CpuGraph.m; sourceTree = "<group>"; };
 		946291A81A0B4F3800235877 /* Designer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Designer.h; sourceTree = "<group>"; };
@@ -196,7 +159,6 @@
 		947B68CF1A0CB661000A2B6C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/ServerEditForm.strings; sourceTree = "<group>"; };
 		947B68D11A0CB663000A2B6C /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/ServerEditForm.strings; sourceTree = "<group>"; };
 		94D4E0C41B6418D70054732B /* GKrellM HD Lite.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "GKrellM HD Lite.entitlements"; sourceTree = "<group>"; };
-		94D4E0C51B641A010054732B /* GKrellM HD WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "GKrellM HD WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		94D4E1081B6A80390054732B /* GKrellM HD.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "GKrellM HD.entitlements"; sourceTree = "<group>"; };
 		94D4E10A1B6A99270054732B /* ServerDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ServerDataModel.xcdatamodel; sourceTree = "<group>"; };
 		94E8F3E61A0788BA00E0CED1 /* GKrellM HD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GKrellM HD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -340,49 +302,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9431DB951ABF5FAF005DD497 /* GKrellM HD WatchKit Extension */ = {
-			isa = PBXGroup;
-			children = (
-				94D4E0C51B641A010054732B /* GKrellM HD WatchKit Extension.entitlements */,
-				9431DB991ABF5FAF005DD497 /* InterfaceController.h */,
-				9431DB9A1ABF5FAF005DD497 /* InterfaceController.m */,
-				9431DB9C1ABF5FAF005DD497 /* NotificationController.h */,
-				9431DB9D1ABF5FAF005DD497 /* NotificationController.m */,
-				9431DB9F1ABF5FAF005DD497 /* GlanceController.h */,
-				9431DBA01ABF5FAF005DD497 /* GlanceController.m */,
-				9431DBA21ABF5FAF005DD497 /* Images.xcassets */,
-				9431DB961ABF5FAF005DD497 /* Supporting Files */,
-			);
-			path = "GKrellM HD WatchKit Extension";
-			sourceTree = "<group>";
-		};
-		9431DB961ABF5FAF005DD497 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9431DB971ABF5FAF005DD497 /* Info.plist */,
-				9431DB981ABF5FAF005DD497 /* PushNotificationPayload.apns */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9431DBAA1ABF5FAF005DD497 /* GKrellM HD WatchKit App */ = {
-			isa = PBXGroup;
-			children = (
-				9431DBAD1ABF5FAF005DD497 /* Interface.storyboard */,
-				9431DBB01ABF5FB0005DD497 /* Images.xcassets */,
-				9431DBAB1ABF5FAF005DD497 /* Supporting Files */,
-			);
-			path = "GKrellM HD WatchKit App";
-			sourceTree = "<group>";
-		};
-		9431DBAB1ABF5FAF005DD497 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9431DBAC1ABF5FAF005DD497 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		94E8F3DD1A0788BA00E0CED1 = {
 			isa = PBXGroup;
 			children = (
@@ -393,8 +312,6 @@
 				94E8F41F1A07B0D300E0CED1 /* Cocoa */,
 				94E8F3E81A0788BA00E0CED1 /* GKrellM */,
 				94E8F4021A0788BB00E0CED1 /* GKrellMTests */,
-				9431DB951ABF5FAF005DD497 /* GKrellM HD WatchKit Extension */,
-				9431DBAA1ABF5FAF005DD497 /* GKrellM HD WatchKit App */,
 				94E8F3E71A0788BA00E0CED1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -708,12 +625,10 @@
 				94E8F3E21A0788BA00E0CED1 /* Sources */,
 				94E8F3E31A0788BA00E0CED1 /* Frameworks */,
 				94E8F3E41A0788BA00E0CED1 /* Resources */,
-				94E46EF51C661D5A007D2055 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				94E46EF21C661D5A007D2055 /* PBXTargetDependency */,
 			);
 			name = "GKrellM HD Pro";
 			productName = GKrellM;
@@ -761,7 +676,7 @@
 		94E8F3DE1A0788BA00E0CED1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Meine Werke";
 				TargetAttributes = {
 					9431DB931ABF5FAF005DD497 = {
@@ -832,7 +747,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9431DBA31ABF5FAF005DD497 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -840,8 +754,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9431DBAF1ABF5FB0005DD497 /* Interface.storyboard in Resources */,
-				9431DBB11ABF5FB0005DD497 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -890,10 +802,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9431DB9E1ABF5FAF005DD497 /* NotificationController.m in Sources */,
-				9431DB9B1ABF5FAF005DD497 /* InterfaceController.m in Sources */,
 				94D4E10D1B6A99270054732B /* ServerDataModel.xcdatamodeld in Sources */,
-				9431DBA11ABF5FAF005DD497 /* GlanceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1005,11 +914,6 @@
 			target = 9431DB931ABF5FAF005DD497 /* GKrellM HD WatchKit Extension */;
 			targetProxy = 94E46EEE1C661D5A007D2055 /* PBXContainerItemProxy */;
 		};
-		94E46EF21C661D5A007D2055 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9431DBA51ABF5FAF005DD497 /* GKrellM HD WatchKit App */;
-			targetProxy = 94E46EF11C661D5A007D2055 /* PBXContainerItemProxy */;
-		};
 		94E8F4011A0788BB00E0CED1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 94E8F3E51A0788BA00E0CED1 /* GKrellM HD Pro */;
@@ -1018,14 +922,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9431DBAD1ABF5FAF005DD497 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9431DBAE1ABF5FAF005DD497 /* Base */,
-			);
-			name = Interface.storyboard;
-			sourceTree = "<group>";
-		};
 		947B68C51A0CB659000A2B6C /* ServerEditForm.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1185,17 +1081,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1204,6 +1109,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1216,7 +1122,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1228,17 +1134,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1246,13 +1161,14 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
