@@ -951,6 +951,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon Full";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/GKrellM/GKrellM HD Pro.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "GKrellM HD";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -963,6 +964,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon Full";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/GKrellM/GKrellM HD Pro.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "GKrellM HD";
 				TARGETED_DEVICE_FAMILY = "1,2";
