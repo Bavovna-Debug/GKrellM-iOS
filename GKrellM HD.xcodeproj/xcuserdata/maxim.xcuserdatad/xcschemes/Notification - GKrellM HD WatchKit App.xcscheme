@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0920"
+   version = "2.0">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9431DBA51ABF5FAF005DD497"
+               BuildableName = "GKrellM HD WatchKit App.app"
+               BlueprintName = "GKrellM HD WatchKit App"
+               ReferencedContainer = "container:GKrellM HD.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9431DB931ABF5FAF005DD497"
+               BuildableName = "GKrellM HD WatchKit Extension.appex"
+               BlueprintName = "GKrellM HD WatchKit Extension"
+               ReferencedContainer = "container:GKrellM HD.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "94E8F3E51A0788BA00E0CED1"
+               BuildableName = "GKrellM HD.app"
+               BlueprintName = "GKrellM HD Pro"
+               ReferencedContainer = "container:GKrellM HD.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9431DBA51ABF5FAF005DD497"
+            BuildableName = "GKrellM HD WatchKit App.app"
+            BlueprintName = "GKrellM HD WatchKit App"
+            ReferencedContainer = "container:GKrellM HD.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES"
+      launchAutomaticallySubstyle = "16"
+      notificationPayloadFile = "GKrellM HD WatchKit Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/GKrellM HD">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9431DBA51ABF5FAF005DD497"
+            BuildableName = "GKrellM HD WatchKit App.app"
+            BlueprintName = "GKrellM HD WatchKit App"
+            ReferencedContainer = "container:GKrellM HD.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9431DBA51ABF5FAF005DD497"
+            BuildableName = "GKrellM HD WatchKit App.app"
+            BlueprintName = "GKrellM HD WatchKit App"
+            ReferencedContainer = "container:GKrellM HD.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/GKrellM HD">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9431DBA51ABF5FAF005DD497"
+            BuildableName = "GKrellM HD WatchKit App.app"
+            BlueprintName = "GKrellM HD WatchKit App"
+            ReferencedContainer = "container:GKrellM HD.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9431DBA51ABF5FAF005DD497"
+            BuildableName = "GKrellM HD WatchKit App.app"
+            BlueprintName = "GKrellM HD WatchKit App"
+            ReferencedContainer = "container:GKrellM HD.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
