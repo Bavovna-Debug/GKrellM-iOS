@@ -41,38 +41,54 @@
     [super awakeFromNib];
 
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+    {
         [self showDetailedInformation:NO];
+    }
 }
 
 - (void)layoutSubviews
 {
     [super layoutSubviews];
 
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
-        if (CGRectGetWidth(self.contentView.bounds) > 621.0f) {
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+    {
+        if (CGRectGetWidth(self.contentView.bounds) > 621.0f)
+        {
             [self.diskUsageGraph setAlpha:1.0f];
             [self showDetailedInformation:YES];
-        } else if (UIDeviceOrientationIsLandscape([[UIDevice currentDevice] orientation]) == YES) {
-            if (CGRectGetWidth(self.contentView.bounds) > 480.0f) {
+        }
+        else if (UIDeviceOrientationIsLandscape([[UIDevice currentDevice] orientation]) == YES)
+        {
+            if (CGRectGetWidth(self.contentView.bounds) > 480.0f)
+            {
                 [self.diskUsageGraph setAlpha:1.0f];
                 [self showDetailedInformation:YES];
-            } else {
+            }
+            else
+            {
                 [self.diskUsageGraph setAlpha:1.0f];
                 [self showDetailedInformation:NO];
             }
-        } else {
+        }
+        else
+        {
             [self.diskUsageGraph setAlpha:1.0f];
             [self showDetailedInformation:NO];
         }
     }
+
+    [self.totalBytesValue        setHidden:YES];
+    [self.usedBytesValue         setHidden:YES];
+    [self.availableBytesValue    setHidden:YES];
+    [self.reservedBytesValue     setHidden:YES];
 }
 
 - (void)showDetailedInformation:(Boolean)show
 {
-    [self.totalBytesValue        setHidden:!show];
-    [self.usedBytesValue         setHidden:!show];
-    [self.availableBytesValue    setHidden:!show];
-    [self.reservedBytesValue     setHidden:!show];
+    [self.totalBytesValue        setHidden:YES];
+    [self.usedBytesValue         setHidden:YES];
+    [self.availableBytesValue    setHidden:YES];
+    [self.reservedBytesValue     setHidden:YES];
     [self.usedPercentValue       setHidden:!show];
     [self.availablePercentValue  setHidden:!show];
     [self.reservedPercentValue   setHidden:!show];
@@ -95,7 +111,8 @@
 
 - (void)setMount:(SRVMountRecord *)mount
 {
-    if (mount != nil) {
+    if (mount != nil)
+    {
         _mount = mount;
         [self.diskUsageGraph setMount:mount];
     }

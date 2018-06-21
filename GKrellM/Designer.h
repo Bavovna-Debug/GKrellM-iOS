@@ -6,8 +6,6 @@
 
 #import <UIKit/UIKit.h>
 
-#import "CpuGraph.h"
-
 @interface RoundCornerView : UIView
 
 @end
