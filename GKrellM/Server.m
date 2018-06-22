@@ -234,7 +234,7 @@ typedef enum {
     NSString *dnsName;
 #ifdef SCREENSHOTING
     if ([self.serverName compare:@"Dr. Zoidberg"] == NSOrderedSame)
-        dnsName = @"zoid.fritz.box";
+        dnsName = @"cloud.zeppelinium.de";
     else if ([self.serverName compare:@"DB2"] == NSOrderedSame)
         dnsName = @"zack.fritz.box";
     else
