@@ -20,11 +20,11 @@
                         <sections>
                             <tableViewSection id="ATj-Nu-1J2">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="44" id="4fQ-4l-WRH" userLabel="Navigation Cell">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="56" id="4fQ-4l-WRH" userLabel="Navigation Cell">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4fQ-4l-WRH" id="ilx-ID-B4i">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <navigationBar contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mgp-GU-xL3">
@@ -54,7 +54,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="120" id="ZU1-Gn-jRy" userLabel="Server Name Cell" customClass="ServerEditCell">
-                                        <rect key="frame" x="0.0" y="44" width="375" height="120"/>
+                                        <rect key="frame" x="0.0" y="56" width="375" height="120"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZU1-Gn-jRy" id="FJs-Vd-AoF">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
@@ -111,7 +111,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="120" id="4Rv-0N-IR5" userLabel="DNS Name Cell" customClass="ServerEditCell">
-                                        <rect key="frame" x="0.0" y="164" width="375" height="120"/>
+                                        <rect key="frame" x="0.0" y="176" width="375" height="120"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4Rv-0N-IR5" id="IEm-yN-J3d">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
@@ -168,7 +168,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="120" id="qPH-PH-OHG" userLabel="Port Number Cell" customClass="ServerEditCell">
-                                        <rect key="frame" x="0.0" y="284" width="375" height="120"/>
+                                        <rect key="frame" x="0.0" y="296" width="375" height="120"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qPH-PH-OHG" id="QeC-S4-Yjc">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>

@@ -100,7 +100,7 @@
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) {
         return 196.0f;
     } else {
-        return 120.0f;
+        return 140.0f;
     }
 }
 
