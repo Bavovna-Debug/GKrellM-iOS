@@ -75,9 +75,9 @@
                                                                    timeStyle:NSDateFormatterMediumStyle];
 
 #ifdef SCREENSHOTING
-    if ([ipAddress containsString:@"195"] == YES)
+    if ([ipAddress containsString:@"127"] == YES)
         ipAddress = @"::ffff:217.110.62.18";
-    if ([ipAddress compare:@"78.47.11.62"] == NSOrderedSame)
+    if ([ipAddress containsString:@"78.47"] == NSOrderedSame)
         ipAddress = @"193.0.4.3";
     if ([ipAddress compare:@"5.56.223.137"] == NSOrderedSame)
         ipAddress = @"192.168.1.12";

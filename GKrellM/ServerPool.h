@@ -9,7 +9,7 @@
 #import "Server.h"
 
 #ifdef DEBUG
-#define SCREENSHOTING
+#undef SCREENSHOTING
 #else
 #undef SCREENSHOTING
 #endif

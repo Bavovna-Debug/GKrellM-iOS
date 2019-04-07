@@ -29,7 +29,8 @@
 {
     [super awakeFromNib];
 
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
+    {
         [self setClearsSelectionOnViewWillAppear:NO];
         [self setPreferredContentSize:CGSizeMake(640.0f, 640.0f)];
     }
@@ -46,9 +47,12 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    if (self.server == nil) {
+    if (self.server == nil)
+    {
         [self.portNumberValue setText:[NSString stringWithFormat:@"%d", DefaultPortNumber]];
-    } else {
+    }
+    else
+    {
         [self.serverNameValue setText:[self.server serverName]];
         [self.dnsNameValue setText:[self.server dnsName]];
         [self.portNumberValue setText:[NSString stringWithFormat:@"%d", [self.server portNumber]]];
@@ -83,7 +87,8 @@
     NSString *dnsName = [self.dnsNameValue text];
     UInt16 portNumber = [[self.portNumberValue text] intValue];
 
-    if (self.server == nil) {
+    if (self.server == nil)
+    {
         ServerPool *serverPool = [ServerPool sharedServerPool];
         Server *server = [Server serverWithId:nil
                                    serverName:serverName
@@ -93,7 +98,9 @@
         [serverPool addNewServer:server];
 
         [serverPool saveServerList];
-    } else {
+    }
+    else
+    {
         ServerPool *serverPool = [ServerPool sharedServerPool];
         Server *server = self.server;
 
@@ -121,16 +128,23 @@
     NSString *dnsName = [self.dnsNameValue text];
     int portNumber = [[self.portNumberValue text] intValue];
 
-    if ([serverName length] == 0) {
+    if ([serverName length] == 0)
+    {
         allowSave = NO;
-    } else if ([dnsName length] == 0) {
+    }
+    else if ([dnsName length] == 0)
+    {
         allowSave = NO;
-    } else if ((portNumber < 0) || (portNumber > UINT16_MAX)) {
+    }
+    else if ((portNumber < 0) || (portNumber > UINT16_MAX))
+    {
         allowSave = NO;
     }
 
     if (self.saveButton.enabled != allowSave)
+    {
         [self.saveButton setEnabled:allowSave];
+    }
 }
 
 @end

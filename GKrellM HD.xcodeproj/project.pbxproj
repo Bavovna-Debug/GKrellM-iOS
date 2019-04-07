@@ -12,10 +12,6 @@
 		946291AF1A0B7D0A00235877 /* ServerEditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 946291AE1A0B7D0A00235877 /* ServerEditCell.m */; };
 		947B68C31A0CB659000A2B6C /* ServerEditForm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947B68C51A0CB659000A2B6C /* ServerEditForm.storyboard */; };
 		94A2686A1A10FC5B00189521 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F9BDC01A10BB6900768733 /* iAd.framework */; };
-		94D4E10B1B6A99270054732B /* ServerDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94D4E1091B6A99270054732B /* ServerDataModel.xcdatamodeld */; };
-		94D4E10C1B6A99270054732B /* ServerDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94D4E1091B6A99270054732B /* ServerDataModel.xcdatamodeld */; };
-		94D4E10D1B6A99270054732B /* ServerDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94D4E1091B6A99270054732B /* ServerDataModel.xcdatamodeld */; };
-		94E46EF01C661D5A007D2055 /* GKrellM HD WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9431DB941ABF5FAF005DD497 /* GKrellM HD WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		94E8F3EC1A0788BB00E0CED1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E8F3EB1A0788BB00E0CED1 /* main.m */; };
 		94E8F3EF1A0788BB00E0CED1 /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E8F3EE1A0788BB00E0CED1 /* ApplicationDelegate.m */; };
 		94E8F3F71A0788BB00E0CED1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E8F3F61A0788BB00E0CED1 /* Images.xcassets */; };
@@ -112,13 +108,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		94E46EEE1C661D5A007D2055 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 94E8F3DE1A0788BA00E0CED1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9431DB931ABF5FAF005DD497;
-			remoteInfo = "GKrellM HD WatchKit Extension";
-		};
 		94E8F4001A0788BB00E0CED1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 94E8F3DE1A0788BA00E0CED1 /* Project object */;
@@ -128,23 +117,7 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		94E46EF41C661D5A007D2055 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				94E46EF01C661D5A007D2055 /* GKrellM HD WatchKit Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		9431DB941ABF5FAF005DD497 /* GKrellM HD WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GKrellM HD WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9431DBA61ABF5FAF005DD497 /* GKrellM HD WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GKrellM HD WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		946291961A0A496200235877 /* CpuGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CpuGraph.h; sourceTree = "<group>"; };
 		946291971A0A496200235877 /* CpuGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CpuGraph.m; sourceTree = "<group>"; };
 		946291A81A0B4F3800235877 /* Designer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Designer.h; sourceTree = "<group>"; };
@@ -158,9 +131,6 @@
 		947B68CD1A0CB660000A2B6C /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/ServerEditForm.strings; sourceTree = "<group>"; };
 		947B68CF1A0CB661000A2B6C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/ServerEditForm.strings; sourceTree = "<group>"; };
 		947B68D11A0CB663000A2B6C /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/ServerEditForm.strings; sourceTree = "<group>"; };
-		94D4E0C41B6418D70054732B /* GKrellM HD Lite.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "GKrellM HD Lite.entitlements"; sourceTree = "<group>"; };
-		94D4E1081B6A80390054732B /* GKrellM HD.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "GKrellM HD.entitlements"; sourceTree = "<group>"; };
-		94D4E10A1B6A99270054732B /* ServerDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ServerDataModel.xcdatamodel; sourceTree = "<group>"; };
 		94E8F3E61A0788BA00E0CED1 /* GKrellM HD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GKrellM HD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E8F3EA1A0788BB00E0CED1 /* GKrellM HD Pro.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GKrellM HD Pro.plist"; sourceTree = "<group>"; };
 		94E8F3EB1A0788BB00E0CED1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -267,13 +237,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9431DB911ABF5FAF005DD497 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		94E8F3E31A0788BA00E0CED1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -305,8 +268,6 @@
 		94E8F3DD1A0788BA00E0CED1 = {
 			isa = PBXGroup;
 			children = (
-				94D4E1081B6A80390054732B /* GKrellM HD.entitlements */,
-				94D4E0C41B6418D70054732B /* GKrellM HD Lite.entitlements */,
 				94F9BDC01A10BB6900768733 /* iAd.framework */,
 				94E8F4831A07B83600E0CED1 /* Foundation.framework */,
 				94E8F41F1A07B0D300E0CED1 /* Cocoa */,
@@ -322,8 +283,6 @@
 				94E8F3E61A0788BA00E0CED1 /* GKrellM HD.app */,
 				94E8F3FF1A0788BB00E0CED1 /* GKrellMTests.xctest */,
 				94F9BDBE1A10BA0300768733 /* GKrellM HD Lite.app */,
-				9431DB941ABF5FAF005DD497 /* GKrellM HD WatchKit Extension.appex */,
-				9431DBA61ABF5FAF005DD497 /* GKrellM HD WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -340,7 +299,6 @@
 				94E8F3F61A0788BB00E0CED1 /* Images.xcassets */,
 				94E8F3F81A0788BB00E0CED1 /* LaunchScreen.xib */,
 				94E8F3E91A0788BB00E0CED1 /* Supporting Files */,
-				94D4E1091B6A99270054732B /* ServerDataModel.xcdatamodeld */,
 			);
 			path = GKrellM;
 			sourceTree = "<group>";
@@ -584,40 +542,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9431DB931ABF5FAF005DD497 /* GKrellM HD WatchKit Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9431DBBA1ABF5FB0005DD497 /* Build configuration list for PBXNativeTarget "GKrellM HD WatchKit Extension" */;
-			buildPhases = (
-				9431DB901ABF5FAF005DD497 /* Sources */,
-				9431DB911ABF5FAF005DD497 /* Frameworks */,
-				9431DB921ABF5FAF005DD497 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "GKrellM HD WatchKit Extension";
-			productName = "GKrellM HD WatchKit Extension";
-			productReference = 9431DB941ABF5FAF005DD497 /* GKrellM HD WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
-		};
-		9431DBA51ABF5FAF005DD497 /* GKrellM HD WatchKit App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9431DBB91ABF5FB0005DD497 /* Build configuration list for PBXNativeTarget "GKrellM HD WatchKit App" */;
-			buildPhases = (
-				9431DBA41ABF5FAF005DD497 /* Resources */,
-				94E46EF41C661D5A007D2055 /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				94E46EEF1C661D5A007D2055 /* PBXTargetDependency */,
-			);
-			name = "GKrellM HD WatchKit App";
-			productName = "GKrellM HD WatchKit App";
-			productReference = 9431DBA61ABF5FAF005DD497 /* GKrellM HD WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
 		94E8F3E51A0788BA00E0CED1 /* GKrellM HD Pro */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94E8F4091A0788BB00E0CED1 /* Build configuration list for PBXNativeTarget "GKrellM HD Pro" */;
@@ -676,30 +600,12 @@
 		94E8F3DE1A0788BA00E0CED1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Meine Werke";
 				TargetAttributes = {
-					9431DB931ABF5FAF005DD497 = {
-						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = KN3H69T969;
-						SystemCapabilities = {
-							com.apple.ApplicationGroups.iOS = {
-								enabled = 1;
-							};
-						};
-					};
-					9431DBA51ABF5FAF005DD497 = {
-						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = KN3H69T969;
-					};
 					94E8F3E51A0788BA00E0CED1 = {
 						CreatedOnToolsVersion = 6.1;
 						DevelopmentTeam = KN3H69T969;
-						SystemCapabilities = {
-							com.apple.ApplicationGroups.iOS = {
-								enabled = 1;
-							};
-						};
 					};
 					94E8F3FE1A0788BB00E0CED1 = {
 						CreatedOnToolsVersion = 6.1;
@@ -707,11 +613,6 @@
 					};
 					94F9BD891A10BA0300768733 = {
 						DevelopmentTeam = KN3H69T969;
-						SystemCapabilities = {
-							com.apple.ApplicationGroups.iOS = {
-								enabled = 1;
-							};
-						};
 					};
 				};
 			};
@@ -720,6 +621,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 				de,
@@ -736,27 +638,11 @@
 				94E8F3E51A0788BA00E0CED1 /* GKrellM HD Pro */,
 				94F9BD891A10BA0300768733 /* GKrellM HD Lite */,
 				94E8F3FE1A0788BB00E0CED1 /* GKrellMTests */,
-				9431DB931ABF5FAF005DD497 /* GKrellM HD WatchKit Extension */,
-				9431DBA51ABF5FAF005DD497 /* GKrellM HD WatchKit App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9431DB921ABF5FAF005DD497 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9431DBA41ABF5FAF005DD497 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		94E8F3E41A0788BA00E0CED1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -798,14 +684,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9431DB901ABF5FAF005DD497 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				94D4E10D1B6A99270054732B /* ServerDataModel.xcdatamodeld in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		94E8F3E21A0788BA00E0CED1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -815,7 +693,6 @@
 				94E8F4361A07B17B00E0CED1 /* MountCell.m in Sources */,
 				94E8F4751A07B2DA00E0CED1 /* SRVProcessorUsageRecord.m in Sources */,
 				94E8F3EF1A0788BB00E0CED1 /* ApplicationDelegate.m in Sources */,
-				94D4E10B1B6A99270054732B /* ServerDataModel.xcdatamodeld in Sources */,
 				94E8F46D1A07B2DA00E0CED1 /* SRVConnectionRecord.m in Sources */,
 				94E8F4191A07B06A00E0CED1 /* ServerEditViewController.m in Sources */,
 				94E8F46F1A07B2DA00E0CED1 /* SRVMemoryRecorder.m in Sources */,
@@ -869,7 +746,6 @@
 				94F9BD8D1A10BA0300768733 /* MountCell.m in Sources */,
 				94F9BD8E1A10BA0300768733 /* SRVProcessorUsageRecord.m in Sources */,
 				94F9BD8F1A10BA0300768733 /* ApplicationDelegate.m in Sources */,
-				94D4E10C1B6A99270054732B /* ServerDataModel.xcdatamodeld in Sources */,
 				94F9BD901A10BA0300768733 /* SRVConnectionRecord.m in Sources */,
 				94F9BD911A10BA0300768733 /* ServerEditViewController.m in Sources */,
 				94F9BD921A10BA0300768733 /* SRVMemoryRecorder.m in Sources */,
@@ -909,11 +785,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		94E46EEF1C661D5A007D2055 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9431DB931ABF5FAF005DD497 /* GKrellM HD WatchKit Extension */;
-			targetProxy = 94E46EEE1C661D5A007D2055 /* PBXContainerItemProxy */;
-		};
 		94E8F4011A0788BB00E0CED1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 94E8F3E51A0788BA00E0CED1 /* GKrellM HD Pro */;
@@ -997,86 +868,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9431DBB51ABF5FB0005DD497 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "GKrellM HD WatchKit Extension/GKrellM HD WatchKit Extension.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "GKrellM HD WatchKit Extension/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Zeppelinium.GKrellM.Pro.WatchKitApp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE = "";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		9431DBB61ABF5FB0005DD497 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = "GKrellM HD WatchKit Extension/GKrellM HD WatchKit Extension.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = "GKrellM HD WatchKit Extension/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Zeppelinium.GKrellM.Pro.WatchKitApp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE = "";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		9431DBB71ABF5FB0005DD497 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				IBSC_MODULE = GKrellM_HD_WatchKit_Extension;
-				INFOPLIST_FILE = "GKrellM HD WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = Zeppelinium.GKrellM.Pro.WatchKitApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		9431DBB81ABF5FB0005DD497 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				IBSC_MODULE = GKrellM_HD_WatchKit_Extension;
-				INFOPLIST_FILE = "GKrellM HD WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = Zeppelinium.GKrellM.Pro.WatchKitApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
 		94E8F4071A0788BB00E0CED1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1090,12 +881,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1122,7 +915,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1143,12 +936,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1168,7 +963,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1180,14 +975,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon Full";
-				CODE_SIGN_ENTITLEMENTS = "GKrellM HD.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/GKrellM/GKrellM HD Pro.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Zeppelinium.GKrellM.Pro;
 				PRODUCT_NAME = "GKrellM HD";
-				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1196,14 +989,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon Full";
-				CODE_SIGN_ENTITLEMENTS = "GKrellM HD.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/GKrellM/GKrellM HD Pro.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Zeppelinium.GKrellM.Pro;
 				PRODUCT_NAME = "GKrellM HD";
-				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1248,14 +1039,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon Lite";
-				CODE_SIGN_ENTITLEMENTS = "GKrellM HD Lite.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/GKrellM/GKrellM HD Lite.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Zeppelinium.GKrellM.Lite;
 				PRODUCT_NAME = "GKrellM HD Lite";
-				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1264,14 +1052,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon Lite";
-				CODE_SIGN_ENTITLEMENTS = "GKrellM HD Lite.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "$(SRCROOT)/GKrellM/GKrellM HD Lite.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Zeppelinium.GKrellM.Lite;
 				PRODUCT_NAME = "GKrellM HD Lite";
-				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1279,24 +1064,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9431DBB91ABF5FB0005DD497 /* Build configuration list for PBXNativeTarget "GKrellM HD WatchKit App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9431DBB71ABF5FB0005DD497 /* Debug */,
-				9431DBB81ABF5FB0005DD497 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9431DBBA1ABF5FB0005DD497 /* Build configuration list for PBXNativeTarget "GKrellM HD WatchKit Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9431DBB51ABF5FB0005DD497 /* Debug */,
-				9431DBB61ABF5FB0005DD497 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		94E8F3E11A0788BA00E0CED1 /* Build configuration list for PBXProject "GKrellM HD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1334,19 +1101,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		94D4E1091B6A99270054732B /* ServerDataModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				94D4E10A1B6A99270054732B /* ServerDataModel.xcdatamodel */,
-			);
-			currentVersion = 94D4E10A1B6A99270054732B /* ServerDataModel.xcdatamodel */;
-			path = ServerDataModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 94E8F3DE1A0788BA00E0CED1 /* Project object */;
 }

@@ -4,88 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>GKrellM (Dutch).xcscheme</key>
+		<key>GKrellM HD Lite.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>GKrellM (English).xcscheme</key>
+		<key>GKrellM HD Lite.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>GKrellM HD Pro.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>GKrellM (French).xcscheme</key>
+		<key>GKrellM HD Pro.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
-		</dict>
-		<key>GKrellM (German).xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
-		</dict>
-		<key>GKrellM (Russian).xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
-		</dict>
-		<key>GKrellM (Ukrainian).xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
-		<key>GKrellM HD Lite (Debug).xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>8</integer>
-		</dict>
-		<key>GKrellM HD Lite (Release).xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>7</integer>
-		</dict>
-		<key>GKrellM HD Pro (Release).xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>6</integer>
-		</dict>
-		<key>GKrellM HD WatchKit App.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>9</integer>
-		</dict>
-		<key>Glance - GKrellM HD WatchKit App.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>11</integer>
-		</dict>
-		<key>Notification - GKrellM HD WatchKit App.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>10</integer>
-		</dict>
-	</dict>
-	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>9431DBA51ABF5FAF005DD497</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>94E8F3E51A0788BA00E0CED1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>94E8F3FE1A0788BB00E0CED1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>94F9BD891A10BA0300768733</key>
-		<dict>
-			<key>primary</key>
-			<true/>
+			<integer>0</integer>
 		</dict>
 	</dict>
 </dict>
